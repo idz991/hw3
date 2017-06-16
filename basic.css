@@ -11,8 +11,30 @@
   height: 5%;
   border-bottom: 3px solid grey;
 }
+#recourcesBar{
+  background-color: red;
+}
 
+#goldBtn{
+  margin-left: 50px;
+	background-color: darkred;
+	width: 100px;
+	height: 30px;
+}
 #stoneBtn{
+  margin-left: 100px;
+	background-color: darkred;
+	width: 100px;
+	height: 30px;
+}
+#ironBtn{
+  margin-left: 100px;
+	background-color: darkred;
+	width: 100px;
+	height: 30px;
+}
+#woodBtn{
+  margin-left: 100px;
 	background-color: darkred;
 	width: 100px;
 	height: 30px;
