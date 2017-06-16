@@ -12,6 +12,12 @@
   border-bottom: 3px solid grey;
 }
 
+#stoneBtn{
+	background-color: darkred;
+	width: 100px;
+	height: 30px;
+}
+
 list.p {
 
 }
