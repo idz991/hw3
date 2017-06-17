@@ -5,3 +5,10 @@
 # grey      495159
 
 https://coolors.co/14080e-e5d4c0-ffc15e-702632-495159
+
+
+
+die host datei in: C:/Windows/System32/drivers/etc kopieren
+dann -> hw3.inf, hw3-dev.inf, hw3-qual.inf
+
+Allerdings muss mein Lappi dafür an sein ^^ 
