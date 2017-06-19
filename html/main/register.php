@@ -46,10 +46,10 @@ if(isset($_GET['register'])) {
 
  //Keine Fehler, wir können den Nutzer registrieren
  if(!$error) {
- $passwort_hash = password_hash($passwort, PASSWORD_DEFAULT);
+// $passwort_hash = password_hash($passwort, PASSWORD_DEFAULT);
 
  $statement = $pdo->prepare("INSERT INTO credentials (mail, passwort) VALUES (:mail, :passwort)");
- $result = $statement->execute(array('mail' => $mail, 'passwort' => $passwort_hash));
+ $result = $statement->execute(array('mail' => $mail, 'passwort' => $passwort));
 
  if($result) {
  echo 'Du wurdest erfolgreich registriert. <a href="login.php">Zum Login</a>';
