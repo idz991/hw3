@@ -1,8 +1,9 @@
-include 'password.php';
+
 
 <?php
 session_start();
 $pdo = new PDO('mysql:host=192.168.178.58;dbname=hw_users', 'root', '');
+include 'password.php';
 ?>
 <!DOCTYPE html>
 <html>
