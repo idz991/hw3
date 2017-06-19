@@ -1,1 +1,8 @@
-include("https://github.com/ircmaxell/password_compat/blob/master/lib/password.php");
+<html>
+ <head>
+  <title>PHP-Test</title>
+ </head>
+ <body>
+ <?php echo '<p>Hallo Welt</p>'; ?>
+ </body>
+</html>
