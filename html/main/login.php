@@ -10,6 +10,19 @@ $showFormular = true;
 
  ?>
 
- <?php echo '<h2>Boyakasha</h2>'; ?>
+
+ <form action="?register=1" method="post">
+ E-Mail:<br>
+ <input type="mail" size="40" maxlength="250" name="mail"><br><br>
+
+ Dein Passwort:<br>
+ <input type="password" size="40"  maxlength="250" name="passwort"><br>
+
+ Passwort wiederholen:<br>
+ <input type="password" size="40" maxlength="250" name="passwort2"><br><br>
+
+ <input type="submit" value="Abschicken">
+ </form>
+
  </body>
 </html>
