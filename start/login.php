@@ -8,8 +8,8 @@ if ($pdo) {
 else {
   echo "<br /> Connection error";
 }
-
-foreach($pdo->query('SELECT * FROM users') as $row) {
+$sql = "SELECT * FROM users";
+foreach($pdo->query($sql) as $row) {
       echo $row['id']."<br />";
       echo $row['name']."<br />";
       echo $row['pw']."<br /><br />";
