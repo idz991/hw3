@@ -11,7 +11,7 @@ else {
 
 
 $delete  = babba;
-$sql2 = "DELETE FROM users WHERE passwort = :delete";
+$sql2 = "DELETE FROM users WHERE pw = :delete";
 $query = $pdo->prepare($sql2);
 
 if ($pdo->query($sql2) === TRUE) {
