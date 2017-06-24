@@ -9,7 +9,7 @@ else {
   echo "<br /> Connection error";
 }
 
-
+/*
 $delete  = babba;
 $sql2 = "DELETE FROM users WHERE pw = :delete";
 $query = $pdo->prepare($sql2);
