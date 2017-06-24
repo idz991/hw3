@@ -16,3 +16,7 @@ foreach($pdo->query($sql) as $row) {
 }
 
 ?>
+
+
+<?php
+$pdo = new PDO('mysql:host=localhost;dbname=hw_users', 'root', 'babba2');
