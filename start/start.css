@@ -53,7 +53,7 @@ li {
 
   .lg{
   float: left;
-  width: 50%;
+  width: 25%;
   margin: 0 auto;
   margin-top: 10%;
   font-family: "Lobster", Sans-serif;
@@ -62,8 +62,8 @@ li {
 }
 
 .register {
-float: right; 
-width: 50%;
+float: right;
+width: 25%;
 margin: 0 auto;
 margin-top: 10%;
 font-family: "Lobster", Sans-serif;
