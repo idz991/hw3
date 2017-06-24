@@ -35,7 +35,6 @@ li {
 
 }
 .login-field {
-      float: center; 
       width: 50%;
       margin: 0 auto;
       font-family: "Lobster", Sans-serif;
@@ -51,7 +50,8 @@ li {
       padding: 20px;
 }
 
-  .login-form{
+  .login-form {
+  float: center; 
   width: 50%;
   margin-top: 10%;
   font-family: "Lobster", Sans-serif;
