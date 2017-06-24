@@ -3,10 +3,10 @@ echo "DB TEST";
 $pdo = new PDO('mysql:host=localhost;dbname=hw_users', 'root', 'babba2');
 echo "<br /> - after PDO";
 if ($pdo) {
-  echo "<br /> Connection succefully established";
+  echo "<br /> Connection succefully established <br />";
 }
 else {
-  echo "<br /> Connection error";
+  echo "<br /> Connection error <br />";
 }
 $sql = "SELECT * FROM users";
 foreach($pdo->query($sql) as $row) {
