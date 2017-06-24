@@ -14,16 +14,16 @@ foreach($pdo->query($sql) as $row) {
       echo $row['name']."<br />";
       echo $row['pw']."<br /><br />";
 }
-/*
+
 $delete  = babba;
-$sql = "DELETE FROM credentials WHERE passwort = :delete";
-$queray = $db->prepare($sql);
-$
-if ($pdo->query($sql) === TRUE) {
-  echo "qry successful";
+$sql2 = "DELETE FROM credentials WHERE passwort = :delete";
+$query = $pdo->prepare($sql2);
+
+if ($pdo->query($sql2) === TRUE) {
+  echo "<br /> qry successful - DELETE";
 }
 else {
-  echo "qry error";
+  echo "<br /> qry error";
 }
 */
 ?>
