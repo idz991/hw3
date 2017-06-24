@@ -51,7 +51,7 @@ li {
 }
 
   .login-form {
-  float: center; 
+  margin: 0 auto;
   width: 50%;
   margin-top: 10%;
   font-family: "Lobster", Sans-serif;
