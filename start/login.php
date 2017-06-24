@@ -1,6 +1,6 @@
 <?php
 echo "DB TEST";
-$pdo = new PDO('mysql:host=localhost;dbname=hw_users', 'root', 'babba23');
+$pdo = new PDO('mysql:host=localhost;dbname=hw_users', 'root', 'babba2');
 echo "<br /> - after PDO";
 if ($pdo) {
   echo "Connection succefully established";
