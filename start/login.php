@@ -1,8 +1,15 @@
 <?php
 $pdo = new PDO('mysql:host=localhost;dbname=hw_users', 'root', 'babba2');
-echo "hello";
+echp "DB TEST";
+if ($pdo) {
+  echo "Connection succefully established";
+}
 
-foreach($db->query('SELECT * FROM `users` WHERE 1') as $row) {
+else {
+  echo "Connection error";
+}
+
+foreach($db->query('SELECT * FROM users') as $row) {
       echo $row['id']."<br />";
       echo $row['name']."<br />";
       echo $row['pw']."<br /><br />";
