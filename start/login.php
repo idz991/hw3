@@ -1,10 +1,9 @@
 <?php
-$pdo = new PDO('mysql:host=localhost;dbname=hw_users', 'root', 'babba2');
-echo "DB TEST";
+$pdo = new PDO('mysql:host=localhost;dbname=hw_users', 'root', 'babba23');
+echo "DB TEST <br /> ";
 if ($pdo) {
   echo "Connection succefully established";
 }
-
 else {
   echo "Connection error";
 }
