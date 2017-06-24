@@ -35,6 +35,7 @@ li {
 
 }
 .login-field {
+      float: center; 
       width: 50%;
       margin: 0 auto;
       font-family: "Lobster", Sans-serif;
@@ -43,7 +44,6 @@ li {
 }
 
 .input-txt {
-
       height: 35px;
 }
 
