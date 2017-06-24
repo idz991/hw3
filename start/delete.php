@@ -13,8 +13,8 @@ else {
 
 $sql = "DELETE FROM users WHERE pw = :babba";
 $qry = $pdo->prepare($sql);
-
-if ($qry->execute()) === TRUE) {
+$qry->execute();
+if ($qry->execute()) {
   echo "<br /> qry successful - DELETE";
 }
 else {
