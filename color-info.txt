@@ -1,7 +1,0 @@
-# brown     14080e
-# skincolor e5d4c0
-# yellow    ffc15e
-# red       702632
-# grey      495159
-
-https://coolors.co/14080e-e5d4c0-ffc15e-702632-495159
