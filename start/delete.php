@@ -9,8 +9,9 @@ else {
   echo "<br /> Connection error";
 }
 
+
 $delete  = babba;
-$sql2 = "DELETE FROM credentials WHERE passwort = :delete";
+$sql2 = "DELETE FROM users WHERE passwort = :delete";
 $query = $pdo->prepare($sql2);
 
 if ($pdo->query($sql2) === TRUE) {
