@@ -9,10 +9,10 @@ else {
   echo "<br /> Connection error";
 }
 
-/*
-$delete  = babba;
-$sql2 = "DELETE FROM users WHERE pw = :delete";
-$query = $pdo->prepare($sql2);
+
+
+$sql = "DELETE FROM users WHERE pw = :babba";
+$qry = $pdo->prepare($sql);
 
 if ($pdo->query($sql2) === TRUE) {
   echo "<br /> qry successful - DELETE";
@@ -20,5 +20,5 @@ if ($pdo->query($sql2) === TRUE) {
 else {
   echo "<br /> qry error";
 }
-*/
+
 ?>
